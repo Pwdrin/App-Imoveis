@@ -32,7 +32,9 @@ export default function Index() {
         </View>
       </View>
       <View style={style.boxBottom}>
-        <Text style={style.text}> Esqueceu a senha? </Text>
+        <Link href="/recover" asChild>
+          <Text style={style.text}> Esqueceu a senha? </Text>
+        </Link>
         <View>
           <Link href="/home" asChild>
             <Pressable style={style.btn}>
